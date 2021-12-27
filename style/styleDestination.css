@@ -1,0 +1,271 @@
+.place_container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.place_info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.place_img {
+    width: 48%;
+}
+
+.place_img-bigger img {
+    width: 100%;
+    margin-bottom: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.place_img-smaller {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.place_img-smaller img {
+    width: 19%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.place_section {
+    width: 48%;
+}
+
+.place_name {
+    font-size: 3rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.place_price {
+    font-size: 3rem;
+    color: #9a9a9a;
+    margin-bottom: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.place_descripion {
+    font-size: 1.4rem;
+    color: #9a9a9a;
+    margin: 15px 0;
+    line-height: 27px;
+}
+
+.place_tag-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.place_tag-name {
+    font-size: 1.4rem;
+    color: #555;
+    margin: auto 0;
+    font-weight: 500;
+}
+
+.place_tag-text {
+    margin-left: 15px;
+    font-size: 1.3rem;
+    color: #9a9a9a;
+    padding: 8px 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.place_cart {
+    margin: 30px 0;
+}
+
+.place_cart-people {
+    display: flex;
+}
+
+.place_cart-people h6 {
+    margin-right: 50px;
+}
+
+.place_cart-quantity {
+    display: flex;
+}
+
+.place_cart-quantity-number {
+    text-align: center;
+    width: 126px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    background-color: #f9f9f9;
+    margin-right: 30px;
+}
+
+.place_cart-submit {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+.place_cart-submit:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #555;
+    transition: all 0.2s ease;
+}
+
+.tab-item {
+    min-width: 80px;
+    padding: 16px 20px 11px 20px;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #555;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 3px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tab-icon {
+    font-size: 24px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+}
+
+.tab-item:hover {
+    opacity: 1;
+    background-color: rgba(133, 133, 133, 0.15);
+    border-color: rgba(133, 133, 133, 0.15);
+}
+
+.tab-item.active {
+    opacity: 1;
+}
+
+.tab-content {
+    padding: 28px 0;
+}
+
+.tab-pane {
+    color: #333;
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.description-header {
+    color: #555;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.content-info-item {
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid #f1f1f1;
+}
+
+.content-info-item:nth-child(2),
+.content-info-item:nth-child(4) {
+    background-color: #f9f9f9;
+}
+
+.content-info-item:last-child {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content-info-text {
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    margin: auto 0;
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.content-review-section {
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content-review-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.content-review-text {
+    padding: 11px 15px;
+}
+
+.form-item textarea {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    color: #9a9a9a;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"] {
+    width: 40%;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    color: #9a9a9a;
+    border: 1px solid #f1f1f1;
+    padding: 15px 20px;
+    outline: none;
+}
+
+.form-item-rule {
+    display: flex;
+    margin: 10px 0;
+}
+
+.form-item-rule input[type="checkbox"] {
+    margin: auto 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.form-submit-review-btn {
+    background-color: #14b9d5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

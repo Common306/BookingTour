@@ -1,0 +1,152 @@
+.cart_container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.cart-empty {
+    font-size: 1.4rem;
+    color: #9a9a9a;
+}
+
+.cart-return-shop-btn {
+    font-size: 1.4rem;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #14b9d5;
+    margin-top: 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.cart-notice {
+    width: 100%;
+    background-color: #14b9d5;
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cart-notice-icon {
+    margin: auto 20px;
+}
+
+.cart-notice-text {
+    padding: 20px 0;
+}
+
+.cart-shop-table {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-shop-table thead {
+    background-color: #f9f9f9;
+}
+
+.cart-shop-table thead tr th {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: #555555;
+    min-width: 70px;
+}
+
+.cart-shop-table tbody {
+    background-color: #f9f9f9;
+}
+
+.cart-shop-table tbody tr td {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: #555555;
+}
+
+.cart-shop-table tbody tr td img {
+    width: 32px;
+    height: 32px;
+}
+
+.cart-none {
+    width: 50%;
+}
+
+.cart-footer {
+    display: flex;
+}
+
+.cart-total {
+    width: 50%;
+    margin-top: 30px;
+    display: block;
+}
+
+.cart-total-title {
+    font-size: 2.5rem;
+    color: #555555;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cart-total-price {
+    width: 100%;
+}
+
+.cart-total-price tbody tr {
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.cart-total-price tbody tr th {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: #555555;
+    min-width: 70px;
+}
+
+.cart-total-price tbody tr td {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: #555555;
+}
+
+@media (max-width: 1199px) {
+    .cart_container {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 739px) {
+    .cart_container {
+        max-width: 430px;
+    }
+    .cart-shop-table {
+        flex-direction: row;
+    }
+    .cart-shop-table thead {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .cart-shop-table tbody {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    table {
+        display: table;
+    }
+    table tr th {
+        display: block;
+    }
+    table tr {
+        display: table-cell;
+    }
+    table tr td {
+        display: block;
+    }
+    .cart-none {
+        display: none;
+    }
+}

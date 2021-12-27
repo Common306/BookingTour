@@ -1,0 +1,229 @@
+.cout_container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.cout_notice {
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #14b9d5;
+    margin-bottom: 20px;
+}
+
+.cout_notice i {
+    margin-right: 20px;
+}
+
+.cout_notice p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cout_notice a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cout-form {
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.cout-form-text {
+    font-size: 1.4rem;
+    color: #9a9a9a;
+}
+
+.cout-form-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cout-form-input-child {
+    width: 46%;
+}
+
+.cout-place-input {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.cout-form-submit {
+    margin-top: 25px;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+}
+
+.cout-form-submit a {
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 10px 20px;
+    background: #14b9d5;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.cout-form-submit input {
+    margin: auto 0;
+    outline: none;
+}
+
+.cout-form-submit input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.cout-lost-pass {
+    margin-top: 20px;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.cout-input-title {
+    color: #555;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.cout-input-left {
+    width: 47%;
+}
+
+.cout-input-right {
+    width: 47%;
+}
+
+.cout-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    height: 2px;
+    width: 30px;
+    background-color: #ccc;
+    margin-bottom: 30px;
+}
+
+#country {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+}
+
+#cout-textarea {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    padding: 13px 20px;
+    border-radius: 30px;
+    outline: none;
+}
+
+table {
+    width: 100%;
+}
+
+table thead tr {
+    border: 1px solid #f1f1f1;
+}
+
+table tbody tr {
+    border: 1px solid #f1f1f1;
+}
+
+table thead tr th {
+    width: 50%;
+    background-color: #f9f9f9;
+    text-align: left;
+    padding: 20px;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    border: 1px solid #f1f1f1;
+    font-weight: 400;
+}
+
+table tbody tr td {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    border: 1px solid #f1f1f1;
+    font-weight: 400;
+}
+
+.cout-pay {
+    margin-top: 20px;
+    background-color: #434a54;
+    width: 100%;
+    padding: 30px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cout-pay-item label {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.cout-pay input {
+    margin-right: 15px;
+}
+
+.cout-pay-description {
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.cout-pay-btn {
+    color: #fff;
+    background-color: #14b9d5;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+@media (max-width: 1199px) {
+    .cout_container {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 739px) {
+    .cout_container {
+        max-width: 430px;
+    }
+    .cout_notice {
+        font-size: 1.3rem;
+    }
+    .cout-input {
+        flex-direction: column;
+    }
+    .cout-input-left {
+        width: 100%;
+    }
+    .cout-input-right {
+        width: 100%;
+    }
+}

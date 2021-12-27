@@ -1,0 +1,118 @@
+.agency_container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.agency_place-list {
+    display: flex;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.agency_place-item {
+    width: calc(100%/3);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 15px;
+    text-align: center;
+}
+
+.agency_place-item h6 {
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.agency_place-item h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.aboutus_place-list_item {
+    display: flex;
+}
+
+.aboutus_place-list_item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.item-contain-line {
+    flex: 1;
+}
+
+.agency_icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.agency_icon-item {
+    padding: 60px;
+    text-align: center;
+    width: 25%;
+}
+
+.agency_icon-item img {
+    height: 70px;
+    width: 70px;
+}
+
+.agency_icon-item p {
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.agency_contact {
+    background-image: url('../img/para-6.jpg');
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.agency_contact-child {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #555;
+    padding: 30px;
+    text-align: center;
+}
+
+@media (max-width: 1199px) {
+    .agency_container {
+        max-width: 930px;
+    }
+    .agency_place-list {
+        flex-direction: column;
+    }
+    .agency_place-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .agency_icon {
+        flex-direction: column;
+    }
+    .agency_icon-item {
+        width: 100%;
+    }
+    .aboutus_place-list_item {
+        flex-direction: column;
+    }
+    .aboutus_place-list_item img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 739px) {
+    .agency_container {
+        max-width: 430px;
+    }
+}

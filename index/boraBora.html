@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style/styleHome.css">
+    <link rel="stylesheet" href="../style/styleAboutUs.css">
+    <link rel="stylesheet" href="../style/styleShop.css">
+    <link rel="stylesheet" href="../style/styleDestination.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="overlay" onclick="closeNavBar()"></div>
+    <div class="footer_header">
+        <div class="footer_header-child">
+            <div class="footer_info">
+                <i class="footer-icon icon-earth fas fa-globe-asia"></i>
+                <a href="#" class="footer-text">LANGUAGES</a>
+                <a href="#" class="footer-text">EN</a>
+                <a href="#" class="footer-text">ES</a>
+                <i class="footer-icon icon-link fas fa-link"></i>
+                <a href="#" class="footer-text">OUR SOCIAL</a>
+                <a href="#" class="footer-icon icon-fb fab fa-facebook-f"></a>
+                <a href="#" class="footer-icon icon-twitter fab fa-twitter"></a>
+                <a href="#" class="footer-icon icon-linkedin fab fa-linkedin-in"></a>
+                <a href="#" class="footer-icon icon-pinterst fab fa-pinterest-p"></a>
+            </div>
+            <div class="footer_contact">
+                <i class="footer-icon far fa-star"></i>
+                <a href="#" class="footer-text">TOUR PACKAGES</a>
+                <i class="footer-icon fas fa-map-marker-alt"></i>
+                <a href="#" class="footer-text">CONTACT US</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="header">
+        <div class="header-child">
+            <img src="../img/logo.png" alt="">
+            <div class="header-child_nav">
+                <a href="../index/index.html" class="header-text header_home">HOME</a>
+                <div class="header-text header_packages">
+                    <a href="../index/package.html">PACKAGES</a>
+                    <ul class="header-subnav">
+                        <li class="subnav-hot">
+                            <a href="../index/package.html">
+                                <p>Search 1</p>
+                                <div class="hot">HOT</div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="../index/package_search2.html">Search 2</a>
+                        </li>
+                        <li class="header-sub-subnav">
+                            <a href="../index/place_2.html">Tour Packages
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+
+                            <ul class="list-sub-subnav">
+                                <li class="subnav-best">
+                                    <a href="../index/place_3.html">Carousel
+                                        <div class="best">BEST</div>
+                                    </a>
+                                </li>
+                                <li><a href="../index/place_1.html">Custom Map</a></li>
+                                <li><a href="../index/place_6.html">360&#176; Panorama</a></li>
+                                <li><a href="../index/place_5.html">Default</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Typology</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-text header_shop">
+                    <a href="../index/shop.html">SHOP</a>
+                    <ul class="header-subnav">
+                        <li><a href="../index/shop.html">Archive</a></li>
+                        <li><a href="../index/boraBora.html">Single Product</a></li>
+                        <li><a href="../index/cart.html">Cart</a></li>
+                        <li><a href="../index/checkOut.html">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="header-text header_about">
+                    <a href="../index/aboutUs.html">ABOUT US</a>
+                    <ul class="header-subnav">
+                        <li class="subnav-new">
+                            <a href="../index/aboutUs.html">
+                                About Us
+                                <div class="new">NEW</div>
+                            </a>
+                        </li>
+                        <li><a href="#">About Us 2</a></li>
+                        <li><a href="#">About Us 3</a></li>
+                    </ul>
+                </div>
+                <div class="header-text header_page">
+                    <a href="#">PAGES</a>
+                    <ul class="header-subnav">
+                        <li><a href="../index/service.html">Services</a></li>
+                        <li><a href="../index/agencyTour.html">Agency Tours</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Prices</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/coming-soon-2/">Coming Soon</a></li>
+                        <li class="header-sub-subnav">
+                            <a href="../index/aboutUs.html">
+                                About Us
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <ul class="list-sub-subnav">
+                                <li><a href="../index/aboutUs.html">About Us 1</a></li>
+                                <li><a href="#">About Us 2</a></li>
+                                <li><a href="#">About Us 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-sub-subnav">
+                            <a href="../index/contact.html">
+                                Contact
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <ul class="list-sub-subnav">
+                                <li><a href="../index/contact.html">Contact 1</a></li>
+                                <li><a href="#">Contact 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-text header_news">
+                    <a href="../index/news.html">NEWS</a>
+                    <ul class="header-subnav">
+                        <li><a href="../index/news.html">Archive</a></li>
+                        <li class="header-sub-subnav">
+                            <a href="../index/readmore.html">
+                                Single Post
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                            <ul class="list-sub-subnav">
+                                <li><a href="../index/readmore.html">Full Width</a></li>
+                                <li><a href="#">Right Sidebar</a></li>
+                                <li><a href="#">Left Sidebar</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-text header_contact">
+                    <a href="../index/contact.html">CONTACT</a>
+                    <ul class="header-subnav">
+                        <li><a href="../index/contact.html">Contact 1</a></li>
+                        <li><a href="#">Contact 2</a></li>
+                    </ul>
+                </div>
+                <div class="header-booknow">
+                    <span><a href="../index/package.html">BOOK NOW</a></span>
+                </div>
+            </div>
+            <div class="header-child_icon-menu" onclick="openNavBar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div id="header-child_nav-mobile">
+                <i class="closed-icon-mobile far fa-times-circle" onclick="closeNavBar()"></i>
+                <div class="header-text-mobile header_home">
+                    <a href="../index/index.html">Home</a>
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="../index/package.html">Packages</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/package.html">Search 1</a></li>
+                            <li><a href="../index/package_search2.html">Search 2</a></li>
+                            <li class="header-sub-subnav-mobile">
+                                <a href="../index/place_2.html">Tour Packages</a>
+                                <i class="mobile-icon-down fas fa-angle-down" onclick="openSubSubMenu(this)"></i>
+                                <ul class="list-sub-subnav-mobile">
+                                    <li><a href="../index/place_3.html">Carousel</a></li>
+                                    <li><a href="../index/place_1.html">Custom Map</a></li>
+                                    <li><a href="../index/place_6.html">360&#176; Panorama</a></li>
+                                    <li><a href="../index/place_5.html">Default</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Typology</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="../index/shop.html">Shop</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/shop.html">Archive</a></li>
+                            <li><a href="../index/boraBora.html">Single Product</a></li>
+                            <li><a href="../index/cart.html">Cart</a></li>
+                            <li><a href="../index/checkOut.html">Checkout</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="../index/aboutUs.html">About Us</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/aboutUs.html">About Us</a></li>
+                            <li><a href="#">About Us 2</a></li>
+                            <li><a href="#">About Us 3</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="#">Pages</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/aboutUs.html">Services</a></li>
+                            <li><a href="../index/agencyTour.html">Agency Tours</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Prices</a></li>
+                            <li><a href="#">Promotion</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Coming Soon</a></li>
+                            <li class="header-sub-subnav-mobile">
+                                <a href="../index/aboutUs.html">About Us</a>
+                                <i class="mobile-icon-down fas fa-angle-down" onclick="openSubSubMenu(this)"></i>
+                                <ul class="list-sub-subnav-mobile">
+                                    <li><a href="../index/aboutUs.html">About Us 1</a></li>
+                                    <li><a href="#">About Us 2</a></li>
+                                    <li><a href="#">About Us 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="header-sub-subnav-mobile">
+                                <a href="../index/contact.html">Contact</a>
+                                <i class="mobile-icon-down fas fa-angle-down" onclick="openSubSubMenu(this)"></i>
+                                <ul class="list-sub-subnav-mobile">
+                                    <li><a href="../index/contact.html">Contact 1</a></li>
+                                    <li><a href="#">Contact 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="../index/news.html">News</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/news.html">Archive</a></li>
+                            <li class="header-sub-subnav-mobile">
+                                <a href="../index/readmore.html">Single Post</a>
+                                <i class="mobile-icon-down fas fa-angle-down" onclick="openSubSubMenu(this)"></i>
+                                <ul class="list-sub-subnav-mobile">
+                                    <li><a href="../index/readmore.html">Full Width</a></li>
+                                    <li><a href="#">Right Sidebar</a></li>
+                                    <li><a href="#">Left Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="header-text-mobile">
+                    <div class="mobile-mn-down">
+                        <a href="../index/contact.html">Contact</a>
+                        <i class="mobile-icon-down fas fa-angle-down" onclick="openSubMenu(this)"></i>
+                        <ul class="header-sub-text-mobile header-subnav-mobile">
+                            <li><a href="../index/contact.html">Contact 1</a></li>
+                            <li><a href="#">Contact 2</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="header-booknow">
+                    <span><a href="../index/package.html">Book Now</a></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="aboutus_container" style="background-image:url(../img/para-8.jpg)">
+        <div class="aboutus_container-child">
+            <span>Bora Bora</span>
+        </div>
+    </div>
+    <div class="place_container">
+        <div class="place_info">
+            <div class="place_img">
+                <div class="place_img-bigger">
+                    <img src="../img/shop6.jpg" alt="" id="imgCurrent">
+                </div>
+                <div class="place_img-smaller">
+                    <img src="../img/shop-1.jpg" alt="" onclick="changeImg(this)">
+                    <img src="../img/shop-2.jpg" alt="" onclick="changeImg(this)">
+                    <img src="../img/shop-3.jpg" alt="" onclick="changeImg(this)">
+                    <img src="../img/shop-4.jpg" alt="" onclick="changeImg(this)">
+                    <img src="../img/shop-5.jpg" alt="" onclick="changeImg(this)">
+                </div>
+            </div>
+            <div class="place_section">
+                <h5 class="place_name">Bora Bora</h5>
+                <div class="shop_rating-star">
+                    <span class="checked fa fa-star"></span>
+                    <span class="checked fa fa-star"></span>
+                    <span class="checked fa fa-star"></span>
+                    <span class="checked fa fa-star"></span>
+                    <span class="checked fa fa-star"></span>
+                </div>
+                <div class="place_price">
+                    <span>$1,000.00 - $2,000.00</span>
+                </div>
+                <p class="place_descripion">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.
+                </p>
+                <p class="place_descripion">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.
+                </p>
+
+                <div class="place_cart">
+                    <div class="place_cart-people">
+                        <h6 class="place_tag-name">People</h6>
+                        <select name="" id="info-item-select" class="info-item-select">
+                            <option value="1">1 People</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>                    
+                        </select>
+                    </div>
+
+                    <div class="place_price">
+                        <span>$ 1,000.00</span>
+                    </div>
+
+                    <div class="place_cart-quantity">
+                        <input type="number" class="place_cart-quantity-number" min="1" size="4" name="Qty" value="1">
+                        <button type="submit" class="place_cart-submit">ADD TO CART</button>
+                    </div>
+                </div>
+
+
+                <div class="place_tag">
+                    <div class="place_tag-item">
+                        <h6 class="place_tag-name">SKU: </h6>
+                        <p class="place_tag-text">1-People-Bora</p>
+                    </div>
+                    <div class="place_tag-item">
+                        <h6 class="place_tag-name">Category: </h6>
+                        <p class="place_tag-text">Travel</p>
+                    </div>
+                    <div class="place_tag-item">
+                        <h6 class="place_tag-name">Tag: </h6>
+                        <p class="place_tag-text">Promotion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tabs">
+            <div class="tab-item active">
+                Description
+            </div>
+            <div class="tab-item">
+                Additional infomation
+            </div>
+            <div class="tab-item">
+                Reviews (1)
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <!-- Tab content -->
+        <div class="tab-content">
+            <div class="tab-pane content-description active">
+                <h2 class="description-header">Description</h2>
+                <p class="description-text place_descripion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce
+                    malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.
+                </p>
+                <h5 class="place_name" style="margin-top:50px">Related Products</h5>
+                <div class="shop_list-place">
+                    <div class="shop_list-place_child">
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-8-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Maldives</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$500.00 - $900.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-1-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Phuket</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-7-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Hawaii Coast</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$800.00 - $1,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-2-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Le Seychelles</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane content-info">
+                <h2 class="description-header">Additional information</h2>
+
+                <div class="content-info-list">
+                    <div class="content-info-item">
+                        <h6 class="place_tag-name" style="width: 150px;">People</h6>
+                        <p class="content-info-text">1 Person, 2 People, 3 People, 4 People, 5 People</p>
+                    </div>
+                    <div class="content-info-item">
+                        <h6 class="place_tag-name" style="width: 150px;">Included</h6>
+                        <p class="content-info-text">Drinks, Breakfast, Excursions</p>
+                    </div>
+                    <div class="content-info-item">
+                        <h6 class="place_tag-name" style="width: 150px;">Availability</h6>
+                        <p class="content-info-text">All Season</p>
+                    </div>
+                    <div class="content-info-item">
+                        <h6 class="place_tag-name" style="width: 150px;">Guide Languages</h6>
+                        <p class="content-info-text">English, Italian, French, German, Spanish</p>
+                    </div>
+                </div>
+                <h5 class="place_name" style="margin-top:50px">Related Products</h5>
+                <div class="shop_list-place">
+                    <div class="shop_list-place_child">
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-8-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Maldives</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$500.00 - $900.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-1-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Phuket</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-7-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Hawaii Coast</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$800.00 - $1,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-2-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Le Seychelles</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane content-review">
+                <h2 class="description-header">1 review for Bora Bora</h2>
+                <div class="content-review-section">
+                    <img src="../img/avatar1.jpeg" alt="" class="content-review-img">
+                    <div class="content-review-text">
+                        <h6 class="place_tag-name" style="font-size:1.6rem">Rebecca Stone – May 4, 2018</h6>
+                        <p class="description-text place_descripion">
+                            This is an amazing tour and i recommend this purchase to all family with kids. Thanks again for the excellent tour guide that allow us to visit the country in best way possible. Thanks !
+                        </p>
+                    </div>
+
+
+                </div>
+                <p class="description-text place_descripion">
+                    Your email address will not be published. Required fields are marked *
+                </p>
+                <form action="">
+                    <div class="form-item">
+                        <p class="form-title description-text place_descripion">Your rating</p>
+                        <div class="shop_rating-star">
+                            <span class="fa fa-star star-review"></span>
+                            <span class="fa fa-star star-review"></span>
+                            <span class="fa fa-star star-review"></span>
+                            <span class="fa fa-star star-review"></span>
+                            <span class="fa fa-star star-review"></span>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <p class="form-title description-text place_descripion">Your review *</p>
+                        <textarea name="" id="" rows="5"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <p class="form-title description-text place_descripion">Your name *</p>
+                        <input type="text">
+                    </div>
+                    <div class="form-item">
+                        <p class="form-title description-text place_descripion">Your email *</p>
+                        <input type="email">
+                    </div>
+                    <div class="form-item form-item-rule">
+                        <input type="checkbox" name="" id="">
+                        <p class="form-title description-text place_descripion">Save my name, email, and website in this browser for the next time I comment.</p>
+                    </div>
+                    <input type="submit" value="SUBMIT" class="form-submit-review-btn">
+                </form>
+                <h5 class="place_name" style="margin-top:50px">Related Products</h5>
+                <div class="shop_list-place">
+                    <div class="shop_list-place_child">
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-8-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Maldives</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$500.00 - $900.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-1-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Phuket</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-7-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Hawaii Coast</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$800.00 - $1,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    ADD TO CART
+                                </span>
+                            </a>
+                        </div>
+                        <div class="shop_list-place_item">
+                            <img src="..//www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/05/shop-2-300x300.jpg" alt="">
+                            <h5 class="shop_name-place">Le Seychelles</h5>
+                            <div class="shop_rating-star">
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                                <span class="checked fa fa-star"></span>
+                            </div>
+                            <div class="shop_place-price">
+                                <span>$1,000.00 - $2,000.00</span>
+                            </div>
+                            <a href="#" class="shop_select-option-btn">
+                                <span>
+                                    SELECT OPTIONS
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer_footer">
+        <div class="footer_footer_header">
+            <div class="footer_footer-header-text">
+                <h3>KEEP IN TOUCH</h3>
+                <div class="margin-top-20px"></div>
+                <h2>Travel with Us</h2>
+            </div>
+            <div class="input-form">
+                <input type="email" class="footer_footer_input-email">
+                <input type="submit" class="footer_footer_input-send" value="SEND">
+            </div>
+        </div>
+        <div class="footer_footer_description">
+            <div class="footer_footer_description-intro">
+                <img src="../img/logo.png" alt="">
+                <div class="margin-top-30px"></div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                </p>
+                <div class="margin-top-20px"></div>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+            </div>
+            <div class="footer_footer_description-info">
+                <div class="footer_footer_description-info-item">
+                    <div class="margin-top-20px"></div>
+                    <h6>OUR AGENCY</h6>
+                    <div class="margin-top-30px"></div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Services</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Insurancee</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Agency</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Tourism</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Payment</p>
+                    </div>
+                </div>
+                <div class="footer_footer_description-info-item">
+                    <div class="margin-top-20px"></div>
+                    <h6>PARTNERS</h6>
+                    <div class="margin-top-30px"></div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Booking</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>RentalCar</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>HostelWorld</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Trivago</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>TripAdvisor</p>
+                    </div>
+                </div>
+                <div class="footer_footer_description-info-item">
+                    <div class="margin-top-20px"></div>
+                    <h6>LAST MINUTE</h6>
+                    <div class="margin-top-30px"></div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>London</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>California</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Indonesia</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Europe</p>
+                    </div>
+                    <div class="footer_footer_description-info-item-child">
+                        <i class="fas fa-angle-right"></i>
+                        <p>Oceania</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_footer_closed">
+            <h6>THE BEST WORDPRESS TRAVEL THEME</h6>
+            <h6>COPYRIGHT NICDARK THEMES 2018</h6>
+        </div>
+    </div>
+    <div class="footer_fixed">
+
+        <div class="footer_fixed_circle-big">
+            <span class="footer_fixed_circle-big_buynow">BUY NOW</span>
+            <div class="footer_fixed_circle-big_text">
+                <span class="footer_fixed_circle-big_text-dollar">$</span>
+                <span class="footer_fixed_circle-big_text-number">54</span>
+            </div>
+        </div>
+        <div class="footer_fixed_circle-small">
+            <img src="../img/envato.png" alt="">
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/cartProduct.js"></script>
+</body>
+
+</html>

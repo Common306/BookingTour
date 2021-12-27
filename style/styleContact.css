@@ -1,0 +1,129 @@
+#contact_header-child_nav-mobile {
+    position: fixed;
+    background-color: rgb(6, 198, 228);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 300px;
+    padding: 40px;
+    z-index: 3;
+    animation: slideNavBar linear 0.3s;
+    display: none;
+}
+
+#contact_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    animation: fadeOpacity linear 0.5s;
+    display: none;
+}
+
+.contact {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_submit {
+    width: 48%;
+}
+
+.contact_submit-header {
+    color: #555555;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact_submit-text {
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    line-height: 27px;
+}
+
+.contact_form_submit {
+    margin-top: 20px;
+}
+
+.contact_address {
+    width: 48%;
+}
+
+.contact_form_submit textarea,
+.contact_form_submit input {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+
+.contact_address-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_address-info-item {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact_address-info-item h2 {
+    color: #555555;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: auto 0;
+}
+
+.contact_address-line {
+    height: 1px;
+    width: 48%;
+    background-color: #f1f1f1;
+}
+
+.contact_phone-number {
+    color: #555555;
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1199px) {
+    .contact {
+        max-width: 930px;
+        flex-wrap: wrap;
+    }
+    .contact_submit {
+        width: 100%;
+    }
+    .contact_address {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .contact_address-info-item {
+        width: 100%;
+    }
+    .contact_address-line {
+        width: 100%;
+    }
+}
+
+@media (max-width: 739px) {
+    .contact {
+        max-width: 430px;
+    }
+}

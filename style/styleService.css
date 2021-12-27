@@ -1,0 +1,278 @@
+    .service-container {
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+    
+    .service-list-read {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    
+    .service-item-read {
+        width: 23%;
+    }
+    
+    .service-item-read img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .service-text-header {
+        color: #555;
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+    
+    .service-text-description {
+        color: #9a9a9a;
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+        line-height: 27px;
+    }
+    
+    .service-list-place {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .service-place-item {
+        width: 32%;
+        background-position: center;
+        background-size: cover;
+        padding: 40px;
+    }
+    
+    .service-place-sub-item {
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .service-place-sub-item-header {
+        color: #9a9a9a;
+        font-size: 2rem;
+    }
+    
+    .service-place-sub-item-subheader {
+        color: #9a9a9a;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    
+    .service-line {
+        height: 2px;
+        width: 20px;
+        background-color: #e4e4e4;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    .service-readmore-btn {
+        color: #9a9a9a;
+        padding: 10px 20px;
+        border: 1px solid #f1f1f1;
+        font-size: 1.4rem;
+        display: inline-block;
+    }
+    
+    .service-facilities {
+        background-image: url('../img/parallax-4-1.jpg');
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        padding: 50px 0;
+    }
+    
+    .service-facilities-child {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .service-facilities-left {
+        width: 48%;
+    }
+    
+    .service-facilities-header {
+        color: #fff;
+        font-size: 5rem;
+    }
+    
+    .service-facilities-text {
+        color: #fff;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+        line-height: 27px;
+    }
+    
+    .service-facilities-right {
+        width: 48%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .service-facilities-divImg {
+        width: 48%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .service-facilities-img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .service-facilities-title {
+        color: #555;
+        font-size: 40px;
+    }
+    
+    .service-icon {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .service-icon-item {
+        width: 25%;
+        color: #9a9a9a;
+        text-align: center;
+        border: 1px solid #f1f1f1;
+        padding: 60px;
+    }
+    
+    .service-intro {
+        max-width: 1200px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    .service-activity-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .service-activity-item {
+        width: 32%;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .service-activity-item-img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    
+    .service-activity-text {
+        text-align: left;
+    }
+    
+    .service-data {
+        background-image: url('../img/para-9.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .service-data-child {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+    
+    .service-data-child-text {
+        display: flex;
+    }
+    
+    .service-data-child-text img {
+        width: 55px;
+        height: 55px;
+        margin: auto 0;
+        margin-right: 30px;
+    }
+    
+    .service-data-child-number {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    @media (max-width: 1199px) {
+        .service-data-child {
+            max-width: 930px;
+        }
+        .service-intro {
+            max-width: 930px;
+        }
+        .service-facilities-child {
+            max-width: 930px;
+            flex-direction: column;
+        }
+        .service-container {
+            max-width: 930px;
+        }
+        .service-list-read {
+            flex-direction: column;
+        }
+        .service-item-read {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .service-list-place {
+            flex-direction: column;
+        }
+        .service-place-item {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .service-facilities-left {
+            width: 100%;
+        }
+        .service-facilities-right {
+            width: 100%;
+            margin-top: 30px;
+        }
+        .service-facilities-divImg {
+            width: 100%;
+        }
+        .service-icon {
+            flex-direction: column;
+        }
+        .service-icon-item {
+            width: 100%;
+        }
+        .service-activity-list {
+            flex-direction: column;
+        }
+        .service-activity-item {
+            width: 100%;
+        }
+        .service-data-child-number {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 739px) {
+        .service-data-child,
+        .service-intro,
+        .service-facilities-child,
+        .service-container {
+            max-width: 430px;
+        }
+    }

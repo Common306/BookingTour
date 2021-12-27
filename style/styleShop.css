@@ -1,0 +1,137 @@
+.checked {
+    color: orange !important;
+}
+
+.shop_container {
+    background-image: url('../img/parallax-4.jpg');
+    width: 100%;
+    height: 310px;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop_container-overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+}
+
+.shop_container-child {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.shop_container-child span {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 200px;
+    display: inline-block;
+}
+
+.shop_list-place {
+    width: 100%;
+    padding: 60px 0 30px 0;
+}
+
+.shop_list-place_child {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop_list-place_item {
+    width: 21.5%;
+    margin-bottom: 30px;
+}
+
+.shop_list-place_item img {
+    width: 100%;
+}
+
+.shop_name-place {
+    font-size: 2.5rem;
+    color: #555555;
+    padding: 10px 2px;
+    font-weight: 400;
+}
+
+.shop_rating-star {
+    padding: 0 2px;
+}
+
+.shop_rating-star span {
+    color: #ccc;
+}
+
+.shop_place-price {
+    margin-top: 15px;
+    padding: 0 2px;
+}
+
+.shop_place-price span {
+    font-size: 1.6rem;
+    color: #9a9a9a;
+}
+
+.shop_select-option-btn {
+    display: inline-block;
+    border: 1px solid #f1f1f1;
+    margin: 15px 0 15px 2px;
+}
+
+.shop_select-option-btn span {
+    padding: 8px 13px;
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 1.3rem;
+}
+
+#shop_header-child_nav-mobile {
+    position: fixed;
+    background-color: rgb(6, 198, 228);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    width: 300px;
+    padding: 40px;
+    z-index: 3;
+    animation: slideNavBar linear 0.3s;
+    display: none;
+}
+
+#shop_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    animation: fadeOpacity linear 0.5s;
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .shop_container-child {
+        max-width: 930px;
+    }
+    .shop_list-place_child {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 739px) {
+    .shop_container-child {
+        max-width: 430px;
+    }
+    .shop_list-place_child {
+        max-width: 430px;
+    }
+    .shop_list-place_item {
+        width: 45%;
+    }
+}
